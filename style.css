@@ -6,10 +6,11 @@ body{
   height: 100px;
   display: flex;
   flex-direction: row;
+  background-color: darkslategray;
 }
 #divlogo{
  display: block;
- background-color: red;
+ 
  width: 50%;
 }
 #header-img{
@@ -19,11 +20,12 @@ body{
  border-radius: 5px;
  vertical-align: bottom;
  margin: 10px 0px 0px 10px ;
+ 
 
 }
 
 #nav-bar{
-  background-color: darkorange;
+  
   width: 50%;
 }
 
@@ -32,16 +34,17 @@ body{
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- background-color:black;
+ 
 }
 #navigationlinks >li{
-  background-color: deeppink;
   flex-basis: 30%;
   text-align: start;
-  margin-top:20px ;
+  margin-top:13px ;
   
   
 }
 .nav-link{
    text-decoration: none;
+   color: blanchedalmond;
+   font-size: 2em;
    }
