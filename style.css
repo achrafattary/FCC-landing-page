@@ -7,42 +7,41 @@ body{
   display: flex;
   flex-direction: row;
 }
+#divlogo{
+ display: block;
+ background-color: red;
+ width: 50%;
+}
 #header-img{
  width: 100%;
  max-width: 100px;
  height: auto;
  border-radius: 5px;
- margin: 0px 0px ;
+ vertical-align: bottom;
+ margin: 10px 0px 0px 10px ;
+
 }
-#divlogo{
- display: block;
- background-color: red;
- border:5px solid red;
- width: 50%;
-}
+
 #nav-bar{
   background-color: darkorange;
   width: 50%;
 }
+
 #navigationlinks{
  list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color:black;
 }
 #navigationlinks >li{
   background-color: deeppink;
   flex-basis: 30%;
-  height: 100px;
+  text-align: start;
+  margin-top:20px ;
+  
   
 }
-#navigationlinks{
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- justify-self: baseline;
-}
-
 .nav-link{
    text-decoration: none;
-   
-   
-   
-}
+   }
